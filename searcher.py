@@ -157,7 +157,7 @@ def search_words_in_dictionary(dictionary):
 # Запуск поиска
 if __name__ == "__main__":
     # Загрузка словаря из файла
-    dictionary = load_dictionary_from_file("./nouns.txt")
+    dictionary = load_dictionary_from_file("./dictionaries/nouns.txt")
     print(f"Загружено {len(dictionary)} слов из словаря.")
     
     # Получение пользовательского ввода
